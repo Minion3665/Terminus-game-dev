@@ -54,5 +54,5 @@ document.addEventListener("DOMContentLoaded",function(){
       logcontext.fillText(players[id].score, (resourcemap.playerlog.width-15), (15+(15*i)))
       i++;
     }
-  }
-}
+  })
+})
